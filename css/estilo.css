@@ -1,0 +1,189 @@
+/*Estrutura Básica
+**********************************/
+body{
+    font: 16px 'Times new roman';
+    background-color: #f8f9fa;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+/*Cabeçalho
+**********************************/
+header{
+    padding-top: 8px;
+    height: 56px;
+    background-color: rgb(74, 44, 25);
+}
+
+header #logo{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4em;    
+}
+
+/*Seção Principal
+**********************************/
+section#home{
+    margin-top: 4em;
+}
+
+/*Navegação*/
+nav .form-control {
+    display: block;
+    padding: .375rem .2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 1px black;
+}
+
+.form-select:focus{
+    box-shadow: 0 0 1px black;
+}
+
+/*Produtos*/
+.item{
+    display: flex;
+    padding: 0.5em 1em ;
+    line-height: 1em;
+    margin: 6px 0em;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 1.5px black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.item-header{
+    display: flex;
+    padding: 1em;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(138, 135, 135);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botoes{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#navegacao-principal{
+    margin-top: 4em;
+}
+
+header .nav-item{
+    background-color: rgb(21, 235, 235);
+    text-align: center;
+    margin: 2px;
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(80, 75, 75);
+    cursor: pointer;
+}
+
+header .nav-item1{
+    background-color: rgb(71, 255, 255);
+    text-align: center;
+    margin: 2px;
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(80, 75, 75);
+    cursor: pointer;
+}
+
+header .limpar{   
+    height: 50px;
+    width: 180px;
+    padding: 5px;
+    background-color: rgb(21, 235, 235);
+}
+
+
+header .nav-item:hover{
+    background-color: rgb(71, 255, 255);
+}
+
+.nav-item a{
+    color: black;
+    font-weight: bold;}
+
+
+section#home{
+    margin-top: 200px;
+}
+
+.preco{
+    color: white;
+    background-color: rgb(3, 189, 3);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card{
+    box-shadow: 0 0 3px black;
+    border: 5px double black;
+}
+
+.card-header{
+    background-color: rgb(21, 235, 235);
+    font-weight: bold;
+}
+
+aside{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 4em;
+}
+
+aside > a{
+    color: rgb(3, 189, 3);
+}
+
+aside > a:hover{
+    color: rgb(24, 175, 24);
+}*/
